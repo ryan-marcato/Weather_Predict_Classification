@@ -38,8 +38,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
 ```
 - Preparar os Dados
-Utilize as funções train_test_split para dividir seus dados em conjuntos de treino e teste e LabelEncoder para codificar variáveis categóricas
+Utilize as funções ```bash train_test_split ``` para dividir seus dados em conjuntos de treino e teste e ```bash LabelEncoder``` para codificar variáveis categóricas
 - Criar e Treinar Modelos
-Use RandomForestClassifier e KNeighborsClassifier para treinar modelos. Você também pode usar GridSearchCV para otimizar os hiperparâmetros.
+Use ```bash RandomForestClassifier``` e ```bash KNeighborsClassifier``` para treinar modelos. Você também pode usar ```bash GridSearchCV``` para otimizar os hiperparâmetros.
 - Avaliar o Modelo
-Utilize metrics e scikit-plot para avaliar o desempenho dos modelos.
+Utilize ```bash metrics``` e ```bash scikit-plot``` para avaliar o desempenho dos modelos.
